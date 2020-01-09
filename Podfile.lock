@@ -1,0 +1,16 @@
+PODS:
+  - ActionKit (2.5.3)
+
+DEPENDENCIES:
+  - ActionKit (~> 2.5.2)
+
+SPEC REPOS:
+  trunk:
+    - ActionKit
+
+SPEC CHECKSUMS:
+  ActionKit: c1b6427fd36a0fe2223555679bcc5dea437af5b3
+
+PODFILE CHECKSUM: 656eaa63a873eccb06e52f6a5efefc88a14de07a
+
+COCOAPODS: 1.8.4
