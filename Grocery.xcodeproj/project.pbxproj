@@ -25,7 +25,6 @@
 		00D7812423B3747200D15E23 /* Cetagories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D7812323B3747200D15E23 /* Cetagories.swift */; };
 		00D7812923B485CA00D15E23 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D7812723B485CA00D15E23 /* TableViewCell.swift */; };
 		00D7812A23B485CA00D15E23 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00D7812823B485CA00D15E23 /* TableViewCell.xib */; };
-		00DAD9E423C713C400EDC379 /* Image in Resources */ = {isa = PBXBuildFile; fileRef = 00DAD9E323C713C400EDC379 /* Image */; };
 		192D47DD4CABA9A0AC442F9B /* Pods_GroceryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375F041FADE4C978D2D2C0F2 /* Pods_GroceryTests.framework */; };
 		82CEE1F932C2F96E69FE7DBE /* Pods_Grocery_GroceryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5610AAC38189073A1B3947 /* Pods_Grocery_GroceryUITests.framework */; };
 		B3CC87A39E550417FC95E177 /* Pods_Grocery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBC66A1EEEAB8C54E024727 /* Pods_Grocery.framework */; };
@@ -73,7 +72,6 @@
 		00D7812323B3747200D15E23 /* Cetagories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cetagories.swift; sourceTree = "<group>"; };
 		00D7812723B485CA00D15E23 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		00D7812823B485CA00D15E23 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
-		00DAD9E323C713C400EDC379 /* Image */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Image; path = "Icone And Picture/Image"; sourceTree = SOURCE_ROOT; };
 		2F93C6CAD32306876932C7D3 /* Pods-Grocery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grocery.debug.xcconfig"; path = "Target Support Files/Pods-Grocery/Pods-Grocery.debug.xcconfig"; sourceTree = "<group>"; };
 		375F041FADE4C978D2D2C0F2 /* Pods_GroceryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		424BA2E9AC3D66E8B0DB2066 /* Pods-Grocery-GroceryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grocery-GroceryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Grocery-GroceryUITests/Pods-Grocery-GroceryUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,7 +137,6 @@
 		005ABCCC23B0A04C0039E1C0 /* Grocery */ = {
 			isa = PBXGroup;
 			children = (
-				00DAD9E323C713C400EDC379 /* Image */,
 				005ABCCD23B0A04C0039E1C0 /* AppDelegate.swift */,
 				005ABCD123B0A04C0039E1C0 /* Main.storyboard */,
 				00160EDC23C1A97F002160DB /* Assets.xcassets */,
@@ -334,7 +331,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00DAD9E423C713C400EDC379 /* Image in Resources */,
 				005ABCD823B0A04D0039E1C0 /* LaunchScreen.storyboard in Resources */,
 				00D7812A23B485CA00D15E23 /* TableViewCell.xib in Resources */,
 				00CC227A23BC79E800DCF959 /* Main.storyboard in Resources */,

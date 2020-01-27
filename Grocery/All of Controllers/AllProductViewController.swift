@@ -36,7 +36,7 @@ extension AllProductsViewController: UICollectionViewDataSource, UICollectionVie
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let size = CGSize(width: 192, height: 248)
+        let size = CGSize(width: 200, height: 280)
         return size
     }
     
@@ -48,9 +48,11 @@ extension AllProductsViewController: UICollectionViewDataSource, UICollectionVie
         
      //   print("A    \(now.name!)")
         
-        cell.priceLabel.text = String(format: "Only %.2lf tk", now.price!)
-        cell.quantityLabel.text = String(format: "%d pc", now.quantity!)
+        cell.priceLabel.text = String(format: "BDT :  %.2lf", now.price!)
+        cell.priceLabel.tintColor = UIColor.red
+        cell.quantityLabel.text = String(format: "%d Products Are Available", now.quantity!)
         cell.imgView.image = UIImage(named: now.name!)
+        cell.quantityLabel.tintColor = UIColor.red
         
       
         return cell
